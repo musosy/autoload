@@ -3,9 +3,8 @@
 namespace App\Wcs;
 
 class Hello{
-    public function talk()
+    public static function talk()
     {
-        var_dump("Hello World");
         return "Hello World";
     }
 };
